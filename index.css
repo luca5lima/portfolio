@@ -21,7 +21,7 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid rgb(4, 2, 24);
+    border: 5px solid #5BBE42;
 }
 
 .center {
@@ -29,7 +29,7 @@ header img {
 }
 
 h1 {
-    color: rgb(38, 27, 157);
+    color: #5BBE42;
 }
 
 footer img {
@@ -55,6 +55,6 @@ footer p {
     padding: 0px 50px;
 }
 
-nav a {
-    color: green;
+nav a:hover {
+    color: #5BBE42;
 }
