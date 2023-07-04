@@ -1,4 +1,4 @@
-body{
+body {
     color:white;
     background-color:black;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +12,22 @@ ul {
     padding: 16px;
 }
 
-a{
+a {
     color: white;
     text-decoration:none;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(4, 2, 24);
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(38, 27, 157);
 }
