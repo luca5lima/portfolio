@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
 body {
     color:white;
     background-color:black;
@@ -57,4 +63,23 @@ footer p {
 
 nav a:hover {
     color: #5BBE42;
+}
+
+.curriculo h2{
+    color: #5BBE42;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+.curriculo ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.curriculo ul li {
+    margin-bottom: 5px;
+    display: inline-block;
+    padding: 0 2px;
 }
