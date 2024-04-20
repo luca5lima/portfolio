@@ -53,6 +53,8 @@ h1 {
 .contato {
     display: flex;
     justify-content: center;
+    transform: scale(1.05);
+
 }
 
 .contato a {
