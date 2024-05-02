@@ -1,22 +1,22 @@
 *{
-    box-sizing: border-box;
+	box-sizing: border-box;
     /* margin: 0;
     padding: 0; */
-}
+}	
 
 body {
-    color: #fff;
+	color: #fff;
     background-color: #282828;
     font-family: "Poppins", sans-serif;
 	margin: 0 auto;
 	max-width: 1100px;
-}
+}	
 
 h1 {
 	margin: 0;
 	font-size: 32px;
 	color: #5BBE42;
-}
+}	
 
 ul {
 	margin: 0;
@@ -26,17 +26,21 @@ ul {
 	list-style: none;
 	align-items: center;
     padding: 30px 25px;
-}
+}	
 
 a {
-    color: white;
+	color: white;
     text-decoration:none;
-}
+}	
 
 section.home .flex{
-    align-items: center;
+	align-items: center;
     justify-content: center;
     gap: 90px;
+}	
+
+.container {
+	padding: 0px 50px;
 }
 
 .foto {
@@ -44,39 +48,32 @@ section.home .flex{
     height: 300px;
     border-radius: 50%;
     border: 5px solid #5BBE42;
-}
+}	
 
 .center {
     text-align: center;
-}
-
-.contato img {
-    width: 40px;
-    height: 40px;
-}
+	margin-top: 25%;
+}	
 
 .contato {
     display: flex;
     justify-content: center;
     transform: scale(1.05);
 
-}
+}	
 
 .contato a {
     margin: 20px;
     text-align: center;
-}
+}	
 
 .contato p {
     margin-top: 2px;
-}
+}	
 
-.container {
-    padding: 0px 50px;
-}
-
-nav a:hover {
+a:hover {
     color: #5BBE42;
+	transform: scale(1.1);
 }
 
 .curriculo h2{
@@ -85,7 +82,6 @@ nav a:hover {
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
-
 
 .curriculo ul {
     list-style-type: none;
@@ -104,10 +100,6 @@ nav a:hover {
 	align-items: center;
 	gap: 50px;
 	justify-content: space-between;
-}
-
-.contato a:hover {
-    color: #5BBE42;
 }
 
 .projetos {
